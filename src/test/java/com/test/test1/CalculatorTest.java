@@ -22,12 +22,15 @@ public class CalculatorTest {
     @Test
     public void isOneHundredDivideTwoEqualsFifteen(){
         assertEquals(50, calculator.divideTwoNumbers(100, 2), 0.000001);
+    }     
         @Test
     public void isEightDivideTwoEqualsFour(){
         assertEquals(4, calculator.divideTwoNumbers(8, 2), 0.000001);
+    }
         @Test
     public void isSixteenDivideTwoEqualsThirteen(){
         assertEquals(30, calculator.divideTwoNumbers(60, 2), 0.000001);
+    }
         @Test
     public void isForteenDivideTwoEqualsSeven(){
         assertEquals(7, calculator.divideTwoNumbers(14, 2), 0.000001);
