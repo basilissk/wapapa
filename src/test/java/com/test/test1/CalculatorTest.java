@@ -20,7 +20,16 @@ public class CalculatorTest {
         assertEquals(12, calculator.miltiplicateTwoNumbers(3, 4));
     }
     @Test
-    public void isTenDivideTwoEqualsFive(){
-        assertEquals(5, calculator.divideTwoNumbers(10, 2), 0.000001);
+    public void isOneHundredDivideTwoEqualsFifteen(){
+        assertEquals(5, calculator.divideTwoNumbers(100, 2), 0.000001);
+        @Test
+    public void isEightDivideTwoEqualsFour(){
+        assertEquals(5, calculator.divideTwoNumbers(8, 2), 0.000001);
+        @Test
+    public void isSixteenDivideTwoEqualsThirteen(){
+        assertEquals(5, calculator.divideTwoNumbers(60, 2), 0.000001);
+        @Test
+    public void isForteenDivideTwoEqualsSeven(){
+        assertEquals(5, calculator.divideTwoNumbers(14, 2), 0.000001);
     }
 }
