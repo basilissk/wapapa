@@ -1,8 +1,4 @@
-package wapapa;
-import org.junit.Assert;
-import org.junit.Test;
 
-import static org.junit.Assert.*;
 public int MainWindow2(int x){
 x=x+1;
 x=x+2;
