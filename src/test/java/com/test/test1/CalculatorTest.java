@@ -19,3 +19,4 @@ public class CalculatorTest {
     public void isThreeMultiplyFourEqualsTwelve(){
         assertEquals(12, calculator.miltiplicateTwoNumbers(3, 4));
     }
+}
