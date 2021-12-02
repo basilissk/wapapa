@@ -1,4 +1,4 @@
-package zmeika;
+package wapapa;
 
 import org.junit.Assert;
 import org.junit.Test;
