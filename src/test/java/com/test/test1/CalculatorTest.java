@@ -25,14 +25,14 @@ public class CalculatorTest {
     }     
         @Test
     public void isEightDivideTwoEqualsFour(){
-        assertEquals(4, calculator.divideTwoNumbers(8, 2), 0.000001);
+        assertEquals(4, calculator.divideTwoNumbers(8, 2));
     }
         @Test
     public void isSixteenDivideTwoEqualsThirteen(){
-        assertEquals(30, calculator.divideTwoNumbers(60, 2), 0.000001);
+        assertEquals(30, calculator.divideTwoNumbers(60, 2));
     }
         @Test
     public void isForteenDivideTwoEqualsSeven(){
-        assertEquals(7, calculator.divideTwoNumbers(14, 2), 0.000001);
+        assertEquals(7, calculator.divideTwoNumbers(14, 2));
     }
 }
