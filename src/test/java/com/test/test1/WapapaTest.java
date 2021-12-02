@@ -6,7 +6,7 @@ import org.junit.Test;
 import static org.junit.Assert.*;
 
 public class public WapapaTest {
-  GF = new GF();
+  GF AM = new GF();
   public int MainWindow2(int x){
 x=x+1;
 x=x+2;
