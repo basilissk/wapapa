@@ -18,5 +18,17 @@ public class CalculatorTest {
     @Test
     public void isThreeMultiplyFourEqualsTwelve(){
         assertEquals(12, calculator.miltiplicateTwoNumbers(3, 4));
+        }
+    @Test
+    public void isThreeMultiplghghourEqualsTwelve(){
+        assertEquals(25, calculator.miltiplicateTwoNumbers(5, 5));
+        }
+    @Test
+    public void isThreeMultttphplyFourEqualsTwelve(){
+        assertEquals(2, calculator.miltiplicateTwoNumbers(1, 2));
+        }
+    @Test
+    public void isThreeMultiplyFourrjrrjualsTwelve(){
+        assertEquals(100, calculator.miltiplicateTwoNumbers(10, 10));
     }
 }
